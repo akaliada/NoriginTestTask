@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/epg_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:background="@color/epg_channel_layout_background" />
+
+        <RelativeLayout
+            android:id="@+id/favorites"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:background="@color/epg_channel_layout_background">
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_star"
+                android:tint="@color/epg_background" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignRight="@id/favorites"
+            android:background="@color/epg_background" />
+
+
+    </RelativeLayout>
+
+    <test.com.norigintesttask.ui.table.view.EPG
+        android:id="@+id/epg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:background="@color/epg_background" />
+
+</LinearLayout>

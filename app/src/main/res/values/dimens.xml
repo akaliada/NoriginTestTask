@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- EPG dimensions-->
+    <dimen name="epg_channel_layout_margin">1dp</dimen>
+    <dimen name="epg_channel_layout_padding">8dp</dimen>
+    <dimen name="epg_channel_layout_height">60dp</dimen>
+    <dimen name="epg_channel_layout_width">70dp</dimen>
+    <dimen name="epg_event_primary_text_size">12dp</dimen>
+    <dimen name="epg_event_secondary_text_size">10dp</dimen>
+    <dimen name="epg_time_bar_height">40dp</dimen>
+    <dimen name="epg_time_bar_text">14dp</dimen>
+    <dimen name="epg_time_bar_line_width">1dp</dimen>
+
+    <dimen name="epg_reset_button_text_size">14dp</dimen>
+    <dimen name="epg_reset_button_height">30dp</dimen>
+    <dimen name="epg_reset_button_width">56dp</dimen>
+    <dimen name="epg_reset_button_radius">5dp</dimen>
+    <dimen name="epg_reset_button_margin">20dp</dimen>
+</resources>
