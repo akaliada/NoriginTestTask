@@ -1,5 +1,5 @@
 ## Norigin Test Task
-This app is an Android implementation of Norigin Media testing task for new candidates.
+This app is an Android implementation of [Norigin Media testing task](https://github.com/NoriginMedia/candidate-tester) for new candidates.
 
 ---
 
